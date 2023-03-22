@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CEP COMPLEMENT</title>
+</head>
+<body>
+
+<section class="container">
+  <h1 class="title">Informe o CEP</h1>
+  <p class="descrition">Digite o CEP e ao sair o campo o endereço será completado. 
+    Pode utilizar a tecla TAB após digitar o CEP.</p>
+
+    <form method="get" action="." class="formulario" id="formulario">
+      <label>Cep:
+      <input name="cep" type="text" id="cep" value="" class="input cep" maxlength="8" ></label>
+      <label>Rua:
+      <input name="rua" type="text" id="rua" class="input rua"></label>
+      <label>Bairro:
+      <input name="bairro" type="text" id="bairro" class="input bairro"></label>
+      <label>Cidade:
+      <input name="cidade" type="text" id="cidade" class="input cidade"></label> 
+      <label>UF:
+      <input name="uf" type="text" id="uf" class="input uf"></label>
+    </form>
+</section>
+
+
+  <script src="main.js"></script>
+</body>
+</html>

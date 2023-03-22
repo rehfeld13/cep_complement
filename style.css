@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(150, 142, 252);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+}
+
+.container .title{
+  color: black;
+  font-size: 40px;
+}
+
+.container .descrition{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.container .formulario{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: rgb(59, 59, 168);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container .formulario label{
+  color: white;
+}
+
+.container .formulario .input{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+
+.container .formulario .input:focus{  
+  outline: none;
+}
+
+.container .formulario .cep{
+  width: 68px;
+}
+
+.container .formulario .rua{
+  width: 300px;
+}
+
+.container .formulario .uf{
+  width: 30px;
+}
